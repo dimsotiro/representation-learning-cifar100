@@ -2,6 +2,15 @@
 
 ## Overview
 
+| Representation   |  Accuracy |
+| ---------------- | --------: |
+| Pixels           |     35.3% |
+| FC Autoencoder   |     40.8% |
+| Conv Autoencoder |     42.2% |
+| ResNet-18        |     83.7% |
+| **CLIP**         | **86.1%** |
+
+
 This project investigates how different image representations affect the performance of a distance-based classifier.
 
 Instead of comparing different classifiers, a fixed **3-Nearest Neighbors (3-NN)** classifier is used throughout all experiments, allowing the study to focus exclusively on the quality of the learned feature representations.
